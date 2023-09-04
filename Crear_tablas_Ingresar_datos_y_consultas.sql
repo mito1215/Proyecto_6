@@ -45,9 +45,9 @@ SELECT * FROM users;
 CREATE TABLE companies (
 	companie_id SERIAL PRIMARY KEY,
 	companie_name VARCHAR(40) NOT NULL,
-	comanie_city VARCHAR(20) NOT NULL,
-	comapnie_address VARCHAR(30) NOT NULL,
-	sector_address VARCHAR(30) NOT NULL
+	companie_city VARCHAR(20) NOT NULL,
+	companie_address VARCHAR(30) NOT NULL,
+	companie_sector VARCHAR(30) NOT NULL
 );
 
 --Ingresar datos a la tabla de Empresas
